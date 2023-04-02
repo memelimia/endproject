@@ -40,38 +40,49 @@ header nav ul li a {
     color: black;
     text-decoration: none;
 }
-/*header nav ul li.active a {
+header nav ul li.active a {
     font-weight: bold;
-}*/
+}
 section {
-    display: flex;
-    width: auto ;
+    /*display: block;*/
+    width: 30em;
+    border: solid black 0.1em;
+    float: right;
+    margin-right: 1em;
+    margin-top: -33em;
 }
-.sidebar {
-    float: left;
-    width: 8em;
-    padding: 2em;
-    background-color: #a4a4a4;
-}
-.sidebar nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.sidebar nav ul li {
-    margin-bottom: 10px;
-}
-.sidebar nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-.content {
-    width: 200px;
+
+#content {
+    width: 40em;
     padding: 20px;
     margin-left: 1em;
-    text-align: justify;
-    background-color: #d8d8d8;
+    text-align: left;
+   background-color: #d8d8d8;
 }
+
+#indexpics {
+    padding: 10px;
+    text-align: right;
+   background-color: none;
+   padding: 1em;
+}
+
+/*#aboutinfo {
+    padding: 10px;
+    text-align: right;
+   background-color: none;
+   padding: 1em;
+}*/
+
+#copyright {
+    padding: 10px;
+    text-align: center;
+   background-color: none;
+   padding: 1em;
+    width: 50em;
+}
+
+
 footer {
     background-color: rgb(188, 188, 188);
     color: black;
