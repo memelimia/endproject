@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: rgb(188, 188, 188);
+    color: black;
+    padding: 10px;
+    border-style: none none solid none;
+}
+
+h1 {
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+/*.nav {
+    text-align: center;
+    padding: 5px;
+    height: auto;
+  }*/
+  a {
+    text-align: center;
+    padding: 5px;
+    height: auto;
+    color: black;
+  }
+
+header nav ul {
+    margin: 2em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+/*header nav ul li.active a {
+    font-weight: bold;
+}*/
+section {
+    display: flex;
+    width: auto ;
+}
+.sidebar {
+    float: left;
+    width: 8em;
+    padding: 2em;
+    background-color: #a4a4a4;
+}
+.sidebar nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+.sidebar nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.content {
+    width: 200px;
+    padding: 20px;
+    margin-left: 1em;
+    text-align: justify;
+    background-color: #d8d8d8;
+}
+footer {
+    background-color: rgb(188, 188, 188);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-style: solid none none none;
+}
+
+header nav ul li a:hover {
+    color: blueviolet;
+}
