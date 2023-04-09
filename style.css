@@ -30,7 +30,7 @@ h1 {
   p.kenobi{
     text-align: right;
     padding: 5px;
-    height: 1px;
+    height: 1em;
     color: black;
   }
 header nav ul {
@@ -65,12 +65,33 @@ section {
    background-color: #d8d8d8;
 }
 
+#content1 {
+    width: 40em;
+    padding: 20px;
+    text-align: justify;
+   background-color: #d8d8d8;
+}
+
+#portfolio {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 13em;
+}
+
 #indexpics {
     padding: 10px;
     text-align: right;
    background-color: none;
    padding: 1em;
 }
+
+/*#indexpics1 {
+    padding: 10px;
+    text-align: right;
+   background-color: none;
+   padding: 1em;
+   margin-top: 3em;
+}*/
 
 #aboutinfo {
     padding: 10px;
