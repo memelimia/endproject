@@ -48,14 +48,13 @@ header nav ul li a {
 header nav ul li.active a {
     font-weight: bold;
 }
-section {
+/*section {
     display: block;
-    width: 30em;
     border: solid black 0.1em;
     float: right;
     margin-right: 1em;
     margin-top: -33em;
-}
+}*/
 
 #content {
     width: 40em;
@@ -99,8 +98,12 @@ section {
    background-color: none;
     text-align: center;
     padding: 5px;
-    height: auto;
     color: black;
+}
+
+#aboutpicture{
+    float: right;
+    margin-top: -550px;
 }
 
 #copyright {
