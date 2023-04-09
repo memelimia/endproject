@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>my website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>korvaa logolla</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Website</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+        <div class="container">
+          <div class="row">
+            <header>
+            <h1>korvaa logolla</h1>
 		<nav>
 			<ul>
 				<li><a href="index.html">home</a></li>
@@ -16,15 +24,18 @@
                 <li><a href="copyright.html">copyright</a></li>
 			</ul>
 		</nav>
-	</header>
-	
-		<div id="portfolio">
-			<a data-flickr-embed="true" href="https://www.flickr.com/photos/137783877@N06" title="">
-				<img src="https://live.staticflickr.com/65535/52804458095_d2cb2d5bbf_b.jpg" width="1024" height="768" alt=""/>
-			</a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>		
-		</div>
-	<footer>
-		<p>&copy; 2023 - Emilia Ahokas</p>
-	</footer>
-</body>
+        </header>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+			</div>
+            <div class="col-md-6">
+                <div id="content"><a data-flickr-embed="true" href="https://www.flickr.com/photos/137783877@N06" title="">
+					<img src="https://live.staticflickr.com/65535/52804458095_d2cb2d5bbf_b.jpg" width="1024" height="768" alt=""/
+				</a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            </div></div>
+          </div>
+        </div>
+      </body>
+        
 </html>

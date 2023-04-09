@@ -5,10 +5,11 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: rgb(188, 188, 188);
+    background-color: none;
     color: black;
     padding: 10px;
-    border-style: none none solid none;
+    margin-top: 4px;
+    border: solid 1px;
 }
 
 h1 {
@@ -16,21 +17,15 @@ h1 {
     padding: 1em;
     text-align: center;
 }
-/*.nav {
+.nav {
     text-align: center;
     padding: 5px;
     height: auto;
-  }*/
+  }
   a {
     text-align: center;
     padding: 5px;
     height: auto;
-    color: black;
-  }
-  p.kenobi{
-    text-align: right;
-    padding: 5px;
-    height: 1em;
     color: black;
   }
 header nav ul {
@@ -56,20 +51,35 @@ header nav ul li.active a {
     margin-top: -33em;
 }*/
 
-#content {
-    width: 40em;
+#indexp {
+padding: 20px;
+margin-left: -10em;
+margin-top: 10em;
+text-align: left;
+border: 1px solid black;
+} 
+
+#indexpic{
     padding: 20px;
-    margin-left: 1em;
+    margin-left: -10em;
+    margin-top: 10em;
     text-align: left;
-   background-color: #d8d8d8;
+    float: left;
+    border: 1px solid black;
 }
 
-#content1 {
+#content {
+    padding: 20px;
+    margin-left: -500px;
+    text-align: left;
+}
+
+/*#content1 {
     width: 40em;
     padding: 20px;
     text-align: justify;
    background-color: #d8d8d8;
-}
+}*/
 
 #portfolio {
     padding: 20px;
@@ -84,13 +94,6 @@ header nav ul li.active a {
    padding: 1em;
 }
 
-/*#indexpics1 {
-    padding: 10px;
-    text-align: right;
-   background-color: none;
-   padding: 1em;
-   margin-top: 3em;
-}*/
 
 #aboutinfo {
     padding: 10px;
@@ -105,6 +108,12 @@ header nav ul li.active a {
     float: right;
     margin-top: -550px;
 }
+p.kenobi{
+    text-align: right;
+    padding: 5px;
+    height: 1em;
+    color: black;
+  }
 
 #copyright {
     padding: 10px;
