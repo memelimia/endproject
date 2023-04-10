@@ -89,6 +89,12 @@ h1 {
     color: black;
 }
 
+/*copyright*/
+.copyright{
+    padding: 10px;
+    text-align: justify;
+    color: black;
+}
 
 
 /* Small screens */
