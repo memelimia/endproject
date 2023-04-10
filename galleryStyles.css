@@ -26,7 +26,6 @@ nav {
 }*/
 
 nav ul {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     list-style: none;
     display: flex;
@@ -48,7 +47,6 @@ nav a {
     border: none;
     font-size: 20px;
     transition: all 0.2s;
-    text-transform: none;
 
 }
 
@@ -61,12 +59,15 @@ header nav ul li a:hover {
     color: blueviolet;
 }
 
+#imgheader{
+    margin-left: -90px;
+}
+
 
 /* Styling for page content */
 html {
     box-sizing: border-box;
-    background: #eeeeee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
     font-size: 20px;
     font-weight: 200;
     scroll-behavior: smooth;
@@ -76,9 +77,6 @@ body {
     margin: 0;
 }
 
-h3 {
-    font-family: 'Megrim', cursive;
-}
 
 .content {
     display: grid;
@@ -284,17 +282,13 @@ img {
       border: none;
       font-size: 10px;
       transition: all 0.2s;
-      text-transform: uppercase;
     }
-    h3 {
-        font-family: 'Megrim', cursive;
-    }
+
 
     /*story section*/
     html {
         box-sizing: border-box;
         background: #eeeeee;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 10px;
         font-weight: 200;
         scroll-behavior: smooth;

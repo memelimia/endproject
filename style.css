@@ -19,7 +19,6 @@ nav {
 }*/
 
 nav ul {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     list-style: none;
     display: flex;
@@ -57,8 +56,7 @@ header nav ul li a:hover {
 /*body*/
 html {
     box-sizing: border-box;
-    background: #eeeeee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
     font-size: 20px;
     font-weight: 200;
     scroll-behavior: smooth;
@@ -68,8 +66,56 @@ body {
     margin: 0;
 }
 
+.aboutpic{
+    border: solid 1px; 
+    padding: 5px;
+    width: 530px;
+    margin: 1 20 1 1;
+}
+
 /*index*/
 
 #indexp {
     display: grid;
+    font-size: 20px;
+}
+
+/*contact*/
+
+form{
+    display: grid;
+    font-size: 20px;
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 1050px) {
+
+
+  
+    /*Nav bar*/
+    nav ul {
+      margin: 0;
+      list-style: none;
+      display: flex;
+    }
+    
+    nav li {
+      flex: 1;
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+    
+    nav a {
+      text-decoration: none;
+      margin-top: 15px;
+      padding: 3px 5px;
+      display: inline-block;
+      color: black;
+      background-color: inherit;
+      border: none;
+      font-size: 15pxpx;
+      transition: all 0.2s;
+    }
 }
