@@ -44,16 +44,10 @@ nav a {
     display: inline-block;
     color: black;
     background-color: inherit;
-    border: none;
     font-size: 20px;
     transition: all 0.2s;
 
 }
-
-nav a:hover {
-    color: rgb(83, 83, 83);
-}
-
 
 header nav ul li a:hover {
     color: yellowgreen;
