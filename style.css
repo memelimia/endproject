@@ -89,7 +89,15 @@ h1 {
     color: black;
 }
 
-/*copyright*/
+/*footer*/
+
+footer {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-top: 1px solid black;
+}
 
 /* Small screens */
 @media only screen and (max-width: 1050px) {

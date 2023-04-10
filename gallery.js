@@ -23,7 +23,7 @@ window.addEventListener('scroll', fixNav);
 const elements = document.getElementsByClassName('column');
 
 // One image view
-function one() {
+/*function one() {
     for (i = 0; i < elements.length; i++) {
         elements[i].style.flex = "100%";
     }
@@ -44,8 +44,7 @@ function four() {
         elements[i].style.flex = "25%";
     }
     console.log("i work four")
-}
-
+}*/
 
 // Modal styling
 const modal = document.getElementById('myModal');
