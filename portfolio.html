@@ -1,41 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bootstrap Website</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-      </head>
-      <body>
-        <div class="container">
-          <div class="row">
-            <header>
-            <h1>korvaa logolla</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">home</a></li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="galleryStyles.css" rel="stylesheet">
+</head>
+
+
+<body >
+  <div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
 				<li><a href="about.html">about</a></li>
 				<li><a href="portfolio.html">portfolio</a></li>
                 <li><a href="contact.html">contact</a></li>
                 <li><a href="copyright.html">copyright</a></li>
-			</ul>
-		</nav>
-        </header>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="content">
+    
+
+    <div class="gallery">
+      <button class="view-button" onclick="one()">1</button>
+      <button class="view-button" onclick="two()">2</button>
+      <button class="view-button" onclick="four()">4</button>
+
+      <div id="myModal" class="modal">
+        <span class="close">
+          <button class="close-button">&times;</button>
+        </span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+      </div>
+
+      <div class="row">
+
+        <div class="column">
+
+          <div  id="beach" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806667123_10be4ef720_o.jpg" width="100%" alt="beach" />
           </div>
-          <div class="row">
-            <div class="col-md-6">
-			</div>
-            <div class="col-md-6">
-                <div id="content"><a data-flickr-embed="true" href="https://www.flickr.com/photos/137783877@N06" title="">
-					<img src="https://live.staticflickr.com/65535/52804458095_d2cb2d5bbf_b.jpg" width="1024" height="768" alt=""/
-				</a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            </div></div>
+
+          <div id="lasvegas" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806626445_e4bc28fe6b_o.jpg" width="100%" alt="las vegas" />
+          </div>
+
+          <div id="lasvegasstrip" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806217516_31eea692d8_o.jpg" width="100%" alt="las vegas strip" />
+          </div>
+
+          <div id="meandbros">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806476929_0913638eea_o.png" width="100%" alt="me and bros" />
           </div>
         </div>
-      </body>
-        
+
+        <div class="column">
+
+          <div id="bros">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806626235_bda0e8030c_o.png" width="100%" alt="bros" />
+          </div>
+
+          <div id="hollywood">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52805664442_f72d05f010_o.jpg" width="100%" alt="hollywood" />
+          </div>
+
+          <div id="yosemite">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806667478_e1acc35857_o.jpg" width="100%" alt="yosemite" />
+          </div>
+
+          <div id="yosemite2">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52805664602_b190483458_o.jpg" width="100%" alt="overview of yosemite" />
+          </div>
+        </div>
+
+        <div class="column">
+
+          <div  id="waterfall" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806477694_40a306a6e6_o.jpg" width="100%" alt="waterfall" />
+          </div>
+
+          <div id="castro" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806670893_ef792ccff8_o.jpg" width="100%" alt="overview of castro street" />
+          </div>
+
+          <div id="goldengate" >
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806221126_77d3a8f578_o.jpg" " width="100%" alt="golden gate bridge" />
+          </div>
+
+          <div id="goldengate2">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806671023_0f03a0d99b_o.jpg" width="100%" alt="golden gate with birds" />
+          </div>
+        </div>
+
+        <div class="column">
+
+          <div id="birds">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806481029_75fa5224ec_o.jpg" width="100%" alt="birds in the sky" />
+          </div>
+
+          <div id="sanfran">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806481154_0a4eef614e_o.jpg" width="100%" alt="san francisco" />
+          </div>
+
+          <div id="postmalone">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806217271_15af343d2e_o.jpg" width="100%" alt="post malone" />
+          </div>
+
+          <div id="sanfran2">
+            <img class="open-modal" src="https://live.staticflickr.com/65535/52806671528_5ee2fc8623_o.jpg" width="100%" alt="san francisco street" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+    
+    <button onclick="openStory(width)" 
+            id="storybutton">
+            &raquo;
+    </button>
+
+    <div id="stories">
+
+    <button 
+      id="closestory"
+      onclick="closeStory(width)">
+      &times;
+    </button>
+  
+      <div class="sticky">
+      <h2>Estonia</h2>
+      <p id="storytext">In the June of 2019 I rode my bicycle from Helsinki to Haapsalu, 
+        accompanied with a good friend.
+        Rem doloribus ea odio? Voluptatum suscipit blanditiis
+        atque unde amet magni beatae hic eos quaerat, ab molestias
+        quidem assumenda eveniet nisi minus?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="gallery.js">
+    
+  </script>
+</body>
+
 </html>

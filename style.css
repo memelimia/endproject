@@ -94,6 +94,12 @@ border: 1px solid black;
    padding: 1em;
 }
 
+.row {
+    padding: 10px;
+    text-align: right;
+   background-color: none;
+   padding: 1em;
+}
 
 #aboutinfo {
     padding: 10px;
