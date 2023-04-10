@@ -9,7 +9,7 @@ header {
     color: black;
     padding: 10px;
     margin-top: 4px;
-    border: solid 1px;
+    /*border: solid 1px;*/
 }
 
 h1 {
@@ -17,39 +17,56 @@ h1 {
     padding: 1em;
     text-align: center;
 }
-.nav {
-    text-align: center;
-    padding: 5px;
-    height: auto;
-  }
-  a {
-    text-align: center;
-    padding: 5px;
-    height: auto;
-    color: black;
-  }
-header nav ul {
-    margin: 2em;
-    padding: 0;
+
+nav {
+    background: none;
+    top: 0;
+    width: 0%;
+    transition: all 0.8s;
+    position: relative;
+    z-index: 1;
+    margin-left: -1.2em;
+}
+
+/*.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-nav a {
+    padding: 20px 20px;
+}*/
+
+nav ul {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
     list-style: none;
     display: flex;
-    justify-content: center;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
     align-items: center;
 }
-header nav ul li a {
-    color: black;
+
+nav a {
     text-decoration: none;
+    padding: 20px 20px;
+    display: inline-block;
+    color: black;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    transition: all 0.2s;
+    text-transform: uppercase;
+
 }
-header nav ul li.active a {
-    font-weight: bold;
+
+header nav ul li a:hover {
+    color: blueviolet;
 }
-/*section {
-    display: block;
-    border: solid black 0.1em;
-    float: right;
-    margin-right: 1em;
-    margin-top: -33em;
-}*/
 
 #indexp {
 padding: 20px;
@@ -74,12 +91,6 @@ border: 1px solid black;
     text-align: left;
 }
 
-/*#content1 {
-    width: 40em;
-    padding: 20px;
-    text-align: justify;
-   background-color: #d8d8d8;
-}*/
 
 #portfolio {
     padding: 20px;
@@ -138,6 +149,3 @@ footer {
     border-style: solid none none none;
 }
 
-header nav ul li a:hover {
-    color: blueviolet;
-}

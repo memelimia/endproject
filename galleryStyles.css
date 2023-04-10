@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -8,22 +7,23 @@
 
 /* styling fot the navbar */
 nav {
-    background: rgb(5, 5, 5);
+    background: none;
     top: 0;
-    width: 100%;
+    width: 0%;
     transition: all 0.8s;
     position: relative;
     z-index: 1;
+    margin-left: -1.2em;
 }
 
-.fixed-nav nav {
+/*.fixed-nav nav {
     position: fixed;
     box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .fixed-nav a {
     padding: 20px 20px;
-}
+}*/
 
 nav ul {
     font-family: 'Montserrat', sans-serif;
@@ -43,7 +43,7 @@ nav a {
     text-decoration: none;
     padding: 20px 20px;
     display: inline-block;
-    color: rgb(160, 160, 160);
+    color: black;
     background-color: inherit;
     border: none;
     font-size: 20px;
@@ -54,6 +54,17 @@ nav a {
 
 nav a:hover {
     color: rgb(83, 83, 83);
+}
+/*header {
+    background-color: none;
+    color: black;
+    padding: 10px;
+    margin-top: 4px;
+    border: solid 1px;
+}*/
+
+header nav ul li a:hover {
+    color: blueviolet;
 }
 
 
