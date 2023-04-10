@@ -254,7 +254,7 @@ img {
 
 
 /* Small screens */
-/*@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1050px) {
 
     .modal-content {
         width: 100%;
@@ -296,7 +296,7 @@ img {
         font-family: 'Megrim', cursive;
     }
 
-    /*story section
+    /*story section*/
     html {
         box-sizing: border-box;
         background: #eeeeee;
@@ -372,7 +372,7 @@ img {
         font-size: 20px;
     }
 
-    /*GALLERY
+    /*GALLERY*/
  
     .content {
         grid-template-columns: 1fr 60fr;
@@ -422,4 +422,4 @@ img {
         background-color: #666;
     }
     
-  }*/
+  }
