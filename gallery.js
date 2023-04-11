@@ -22,29 +22,6 @@ window.addEventListener('scroll', fixNav);
 // Multi choice image view whatever buttons
 const elements = document.getElementsByClassName('column');
 
-// One image view
-/*function one() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "100%";
-    }
-    console.log('i work');
-}
-
-// Two images side by side
-function two() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "50%";
-    }
-    console.log('i work too');
-}
-
-// Four images side by side
-function four() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "25%";
-    }
-    console.log("i work four")
-}*/
 
 // Modal styling
 const modal = document.getElementById('myModal');

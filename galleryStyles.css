@@ -88,7 +88,7 @@ body {
 }
 
 footer {
-    display: grid;
+    display: block;
     padding: 10px;
     text-align: center;
     color: black;
@@ -232,7 +232,7 @@ img {
 }
 .colse-button:hover,
 .close-button:focus {
-    color: rgb(112, 110, 110);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     
 }
@@ -280,8 +280,8 @@ img {
       font-size: 15px;
       transition: all 0.2s;
     } 
- }
-
+ 
+}
 
 
     /*story section*/
@@ -406,4 +406,5 @@ img {
     .view-button:hover {
         background-color: #666;
     }
+
     
