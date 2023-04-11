@@ -70,7 +70,6 @@ body {
     border: solid 1px; 
     padding: 5px;
     width: 530px;
-    margin: 1 20 1 1;
 }
 
 /*index*/
@@ -126,7 +125,7 @@ footer {
       color: black;
       background-color: inherit;
       border: none;
-      font-size: 15pxpx;
+      font-size: 15px;
       transition: all 0.2s;
     }
 }
